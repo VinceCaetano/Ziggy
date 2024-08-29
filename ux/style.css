@@ -29,6 +29,11 @@ body, html {
 .profile-icon, .menu-hamburger {
     width: 40px;
     height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #FAA72B;
 }
 
 .center-button {
@@ -37,6 +42,10 @@ body, html {
     align-items: center;
     width: 120px;
     height: 120px;
+    background-color: #D27300;
+    border-radius: 50%;
+    color: #0B061D;
+    font-size: 48px;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -59,7 +68,7 @@ body, html {
     width: 100%;
     max-width: 600px;
     background-color: #D27300;
-    border-radius: 25px;
+    border-radius: 20px;
     padding: 10px;
 }
 
@@ -70,34 +79,32 @@ body, html {
     border-radius: 25px;
     outline: none;
     font-size: 16px;
-    background-color:#0B061D;;
+    background-color: #0B061D;
     color: #ffffff;
 }
 
 .send-button {
-    background-color: #0B061D;;
+    background-color: #150d32;
     border: none;
     padding: 10px;
     margin-left: 10px;
     border-radius: 25%;
     cursor: pointer;
-}
-
-.send-button svg {
-    width: 24px;
-    height: 24px;
-    fill: #0B061D;
+    color: #FAA72B;
+    font-size: 20px;
 }
 
 @media (max-width: 600px) {
     .center-button {
         width: 100px;
         height: 100px;
+        font-size: 36px;
     }
 
     .profile-icon, .menu-hamburger {
         width: 35px;
         height: 35px;
+        font-size: 28px;
     }
 
     .chat-input-container {
@@ -108,9 +115,7 @@ body, html {
         font-size: 14px;
     }
 
-    .send-button svg {
-        width: 20px;
-        height: 20px;
+    .send-button {
+        font-size: 18px;
     }
 }
-
