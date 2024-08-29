@@ -59,7 +59,7 @@ body, html {
     width: 100%;
     max-width: 600px;
     background-color: #D27300;
-    border-radius: 50px;
+    border-radius: 25px;
     padding: 10px;
 }
 
@@ -70,16 +70,16 @@ body, html {
     border-radius: 25px;
     outline: none;
     font-size: 16px;
-    background-color: #FAA72B;
-    color: #0B061D;
+    background-color:#0B061D;;
+    color: #ffffff;
 }
 
 .send-button {
-    background-color: #FAA72B;
+    background-color: #0B061D;;
     border: none;
     padding: 10px;
     margin-left: 10px;
-    border-radius: 50%;
+    border-radius: 25%;
     cursor: pointer;
 }
 
