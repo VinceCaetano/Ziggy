@@ -1,4 +1,8 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body, html {
     height: 100%;
@@ -25,8 +29,6 @@ body, html {
 .profile-icon, .menu-hamburger {
     width: 40px;
     height: 40px;
-    background-color: #FAA72B;
-    border-radius: 50%;
 }
 
 .center-button {
@@ -35,18 +37,6 @@ body, html {
     align-items: center;
     width: 120px;
     height: 120px;
-    background-color: #D27300;
-    border-radius: 50%;
-}
-
-.microphone-icon {
-    width: 60px;
-    height: 60px;
-    background-color: #FAA72B;
-    mask: url('https://www.svgrepo.com/show/26543/microphone.svg') no-repeat center;
-    -webkit-mask: url('https://www.svgrepo.com/show/26543/microphone.svg') no-repeat center;
-    mask-size: contain;
-    -webkit-mask-size: contain;
 }
 
 .bottom-bar {
@@ -58,23 +48,12 @@ body, html {
 .chat-bubble {
     width: 60px;
     height: 60px;
-    background-color: #FAA72B;
-    border-radius: 50%;
-    mask: url('https://www.svgrepo.com/show/76430/chat.svg') no-repeat center;
-    -webkit-mask: url('https://www.svgrepo.com/show/76430/chat.svg') no-repeat center;
-    mask-size: contain;
-    -webkit-mask-size: contain;
 }
 
 @media (max-width: 600px) {
     .center-button {
         width: 100px;
         height: 100px;
-    }
-
-    .microphone-icon {
-        width: 50px;
-        height: 50px;
     }
 
     .profile-icon, .menu-hamburger, .chat-bubble {
